@@ -1,0 +1,17 @@
+@media (max-width: 700px) {
+    .img {
+        display: none;
+    }
+    nav {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+}
+
+@media (max-width: 540px) {
+    .nav  {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+}
