@@ -10,7 +10,7 @@
 
 body {
     font-size: 100%;
-    background-color: white;
+    background-image: linear-gradient(-225deg, #FFFEFF 0%, #D7FFFE 100%);
 }
 
 .cabecalho {
@@ -19,7 +19,7 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 6px;
-    background-color: rgba(7, 95, 7, 0.658) ;
+    background-image: linear-gradient(-60deg, #16a085 0%, #f4d03f 100%);
 }
 
 .img {
@@ -30,37 +30,6 @@ body {
     width: 80px;
 }
 
-.cabecalho-menu {
-    display: flex;
-    gap: 32px
-    ;
-}
-
-.cabecalho-menu-item {
-    font-family: 'Sarala', sans-serif;
-    color: green;
-    font-weight: 400;
-    font-size: 18px;
-    border: none;
-    box-shadow: black;
-    border-radius: 10px;
-    font-family: 'Sarala', sans-serif;
-    font-size: 20px;
-    font-weight: 400;
-    width: 100px;
-    color: green;
-    background-color: rgb(255, 255, 255);
-}
-
-.cabecalho-menu-item:hover {
-    background-color: rgb(1, 36, 1);
-    font-size: 19px;
-    color: white;
-}
-
-.menu-item-color {
-    color: green;
-}
 
 .conteudo {
     margin-bottom: 48px;
@@ -86,7 +55,7 @@ body {
     font-family: 'Righteous', cursive;
     font-weight: 400;
     font-size: 64px;
-    color: rgba(4, 107, 4, 0.822);
+    color: #0ba360;
 }
 
 .conteudo-principal-escrito-subtitulo {
@@ -97,25 +66,44 @@ body {
 
 }
 
-.botao {
-    background-color: rgba(3, 102, 3, 0.788);
-    width: 180px;
-    height: 60px;
-    border: none;
-    box-shadow: black;
-    border-radius: 20px;
-    font-family: 'Sarala', sans-serif;
-    font-size: 20px;
-    font-weight: 400;
-    color: white;
+button {
+   
+        padding: 1.3em 3em;
+        margin: 1.5rem;
+        font-size: 12px;
+        text-transform: uppercase;
+        letter-spacing: 2.5px;
+        font-weight: 500;
+        color: #000;
+        background-color: #fff;
+        border: none;
+        border-radius: 45px;
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease 0s;
+        cursor: pointer;
+        outline: none;
+       }
+       
+       button:hover {
+        background-image: linear-gradient(-60deg, #16a085 0%, #f4d03f 100%);
+        box-shadow: 0px 15px 20px #064635;
+        color: #fff;
+        transform: translateY(-7px);
+       }
+       
+       button:active {
+        transform: translateY(-1px);
+       }
+    
+    
 
-}
 
-.botao:hover {
-    background-color: rgb(1, 36, 1);
-    font-size: 14px;
 
-}
+
+
+
+
+
 
 .conteudo-principal-imagem {
     
