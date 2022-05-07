@@ -32,6 +32,10 @@ body {
 
 
 .conteudo {
+    background-image: url(../img/gato\ e\ dog.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
     margin-bottom: 48px;
     border-top: 0.4px solid rgba(0, 128, 0, 0.411);
 }
