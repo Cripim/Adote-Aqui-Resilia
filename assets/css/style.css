@@ -26,13 +26,11 @@ body {
     width: 100px;
 }
 
-.img:hover {
-    width: 80px;
-}
+
 
 
 .conteudo {
-    background-image: url(../img/gato\ e\ dog.jpg);
+    background-image: url(../img/AdobeStock_176970228.jpeg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
